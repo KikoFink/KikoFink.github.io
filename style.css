@@ -1,0 +1,132 @@
+body{
+    background-image: url("Untitled.png");
+    background-repeat: repeat-y;
+    background-size: 100%;
+}
+.page{
+    width: 400px;
+    position: relative;
+    left: 600px;
+    bottom: 220px;
+    height: 600px;
+}
+.header{
+    width: 400px;
+}
+.card {
+    width: 550px;
+    height: 650px;
+    border-radius: 4px;
+    background: #2d2d2d;
+    display: flex;
+    gap: 5px;
+    padding: .4em;
+    position: relative;
+    left: 100px;
+}
+.card a{
+    position: relative;
+    top: 40px;
+    height: 90%;
+    flex: 1;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: all .5s;
+    background: #868686;
+    border: 1px solid #410117;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card a:hover {
+    flex: 4;
+}
+
+.card a span {
+    min-width: 14em;
+    padding: .5em;
+    text-align: center;
+    transform: rotate(-90deg);
+    transition: all .5s;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: .1em;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: sans-serif;
+}
+body > div > a{
+    color: white;
+    position: relative;
+    width: 100px;
+    left: 350px;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 20px;
+    bottom: 660px;
+}
+.card a:hover span {
+    transform: rotate(0);
+}
+body > div > div > a:nth-child(1){
+    background-image: url("pexels-jacob-morch-572780.jpg");
+    background-repeat: no-repeat;
+    background-size: 900px;
+    background-position-x: -270px;
+    opacity: 0.5;
+}
+body > div > div > a:nth-child(1):hover{
+    opacity: 1;
+}
+body > div > div > a:nth-child(2){
+    background-image: url("pexels-lucie-liz-3165335.jpg");
+    background-repeat: no-repeat;
+    background-size: 900px;
+    opacity: 0.5;
+}
+body > div > div > a:nth-child(2):hover{
+    opacity: 1;
+}
+body > div > div > a:nth-child(4){
+    background-image: url("pexels-prateek-katyal-2694434.jpg");
+    background-repeat: no-repeat;
+    background-size: 900px;
+    opacity: 0.5;
+    background-position-x: -350px;
+    background-position-y: -10px;
+}
+body > div > div > a:nth-child(3):hover{
+    opacity: 1;
+}
+body > div > div > a:nth-child(3){
+    background-image: url("biography.jpg");
+    background-repeat: no-repeat;
+    background-size: 1400px;
+    opacity: 0.5;
+    background-position-y: -90px;
+    background-position-x: -570px;
+}
+body > div > div > a:nth-child(4):hover{
+    opacity: 1;
+}
+h1{
+    color: #cccccc;
+    font-size: 50px;
+    width: 550px;
+    position: relative;
+    left: 600px;
+    top: 90px;
+    text-align: left;
+    height: 100%;
+}
+img{
+    position: relative;
+    left: 1150px;
+    bottom: 300px;
+    border: 1px solid #3a3a3a;
+}
+a{
+    text-decoration: none;
+}
